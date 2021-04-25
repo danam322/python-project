@@ -1,0 +1,70 @@
+# possible output 1
+
+Hello there, what's your name? Dana
+Hello Dana!
+Do you want to play Hangman? (y/n) y
+You have 7 tries.
+_ _ _ _ _ 
+Take a guess, it could be a letter or a word: r
+_ _ r _ _ 
+You guessed it right! r is in the word!
+Take a guess, it could be a letter or a word: s
+_ _ r _ _ 
+s is not in the word.
+Take a guess, it could be a letter or a word: o
+_ o r _ _ 
+You guessed it right! o is in the word!
+Take a guess, it could be a letter or a word: d
+_ o r _ d 
+You guessed it right! d is in the word!
+Take a guess, it could be a letter or a word: lord
+lord is not the answer.
+Take a guess, it could be a letter or a word: world
+You guessed the word, great job!
+
+Process finished with exit code 0
+
+
+
+# possible output 2
+
+Hello there, what's your name? Dana
+Hello Dana!
+Do you want to play Hangman? (y/n) n
+Goodbye!
+
+Process finished with exit code 0
+
+
+
+# possible output 3
+
+Hello there, what's your name? Dana
+Hello Dana!
+Do you want to play Hangman? (y/n) y
+You have 7 tries.
+_ _ _ _ _ 
+Take a guess, it could be a letter or a word: s
+_ _ _ _ _ 
+s is not in the word.
+Take a guess, it could be a letter or a word: f
+_ _ _ _ _ 
+f is not in the word.
+Take a guess, it could be a letter or a word: c
+_ _ _ _ _ 
+c is not in the word.
+Take a guess, it could be a letter or a word: e
+_ _ _ _ _ 
+e is not in the word.
+Take a guess, it could be a letter or a word: a
+_ _ _ _ _ 
+a is not in the word.
+Take a guess, it could be a letter or a word: b
+_ _ _ _ _ 
+b is not in the word.
+Take a guess, it could be a letter or a word: o
+_ o _ _ _ 
+You guessed it right! o is in the word!
+Sorry, you ran out of tries. Try again next time :)
+
+Process finished with exit code 0
